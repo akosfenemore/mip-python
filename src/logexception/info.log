@@ -4,3 +4,15 @@ Traceback (most recent call last):
   File "/Users/akofenem/PycharmProjects/mip-python/src/logexception/parsecsv.py", line 20, in parse_csv_and_get_columns
     raise CustomUserException
 src.logexception.exceptionhandler.CustomUserException
+parsecsv - parse_csv_and_get_columns - 16 - Reading file
+parsecsv - parse_csv_and_get_columns - 30 - File not found!
+Traceback (most recent call last):
+  File "/Users/akofenem/PycharmProjects/mip-python/src/logexception/parsecsv.py", line 20, in parse_csv_and_get_columns
+    raise CustomUserException
+src.logexception.exceptionhandler.CustomUserException
+parsecsv - parse_csv_and_get_columns - 16 - Reading file
+parsecsv - parse_csv_and_get_columns - 30 - File not found!
+Traceback (most recent call last):
+  File "/Users/akofenem/PycharmProjects/mip-python/src/logexception/parsecsv.py", line 20, in parse_csv_and_get_columns
+    raise CustomUserException
+src.logexception.exceptionhandler.CustomUserException

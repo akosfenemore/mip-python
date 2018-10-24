@@ -9,7 +9,7 @@ import numpy as np
 from sklearn import preprocessing
 
 # Read the data/flights.csv dataset into Python
-data = pd.read_csv('/Users/akofenem/PycharmProjects/MIP-Trainings/mip-python/data/flights.csv', sep=',' , encoding="ISO-8859-1")
+data = pd.read_csv('/Users/akofenem/PycharmProjects/mip-python/data/flights.csv', sep=',' , encoding="ISO-8859-1")
 
 # remove the column "DAY_OF_WEEK"
 del data['DAY_OF_WEEK']

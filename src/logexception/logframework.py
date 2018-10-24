@@ -17,7 +17,6 @@ class CustomLogger:
 
     def __init__(self):
         path = os.path.dirname(__file__) + '/log_config.json'
-        print(path + "   <---mypath")
         if os.path.exists(path):
             with open(path, 'r') as f:
                 config = json.load(f)

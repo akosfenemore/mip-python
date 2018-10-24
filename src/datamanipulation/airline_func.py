@@ -5,7 +5,7 @@ import numpy as np
 
 from sklearn import preprocessing
 
-data = pd.read_csv('/Users/akofenem/Desktop/mip-python/data/flights.csv', sep=',' , encoding="ISO-8859-1")
+data = pd.read_csv('/Users/akofenem/PycharmProjects/mip-python/data/flights.csv', sep=',' , encoding="ISO-8859-1")
 
 def Airline_Func(data):
     # remove the column "DAY_OF_WEEK"
