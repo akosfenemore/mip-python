@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de7d9154-2719-4d8f-982d-24f41af7ed80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datamanipulation/airline_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanipulation/airline_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logexception/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logexception/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logexception/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logexception/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logexception/logframework.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logexception/logframework.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,25 +22,25 @@
         <counts>
           <entry key="json" value="2" />
           <entry key="log" value="3" />
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Log" value="3" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="751" />
-          <entry key="py" value="648" />
+          <entry key="Python Console" value="908" />
+          <entry key="py" value="940" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1399" />
+          <entry key="Python" value="1848" />
         </counts>
       </usages-collector>
     </session>
@@ -65,11 +59,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="424">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
-                <marker date="1540396527626" expanded="true" signature="579:685" ph="..." />
+                <marker date="1540400316759" expanded="true" signature="616:752" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -107,9 +110,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
+    <option name="x" value="295" />
     <option name="y" value="23" />
-    <option name="width" value="1096" />
+    <option name="width" value="1314" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,7 +172,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.path_object">
+  <component name="RunManager" selected="Python.advanced_process">
+    <configuration name="advanced_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mip-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/datamanipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="airline_manipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mip-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,9 +261,11 @@
       <item itemvalue="Python.parsecsv" />
       <item itemvalue="Python.airline_manipulation" />
       <item itemvalue="Python.path_object" />
+      <item itemvalue="Python.advanced_process" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.advanced_process" />
         <item itemvalue="Python.path_object" />
         <item itemvalue="Python.parsecsv" />
         <item itemvalue="Python.airline_manipulation" />
@@ -260,10 +286,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1096" height="1027" extended-state="0" />
+    <frame x="295" y="23" width="1314" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3739535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31090486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32941177" />
@@ -326,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logexception/parsecsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -357,12 +377,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="424">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
-            <marker date="1540396527626" expanded="true" signature="579:685" ph="..." />
+            <marker date="1540400316759" expanded="true" signature="616:752" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,8 @@
 import pandas as pd
 pd.options.display.max_columns = 20
 
+from scipy.stats import mstats
+
 import numpy as np
 
 from sklearn import preprocessing
@@ -12,12 +14,24 @@ data = pd.read_csv('/Users/akofenem/PycharmProjects/mip-python/data/flights.csv'
 data['ROUTE'] = data['ORIGIN_AIRPORT'].astype('str') + ' - ' + data['DESTINATION_AIRPORT'].astype('str')
 
 # Write a function that, for all the quantitative cols, returns mean, quartiles, stdev, max, kurtosis
-def quant(data):
-    return pd.concat([data.describe(),data.kurtosis().to_frame().transpose().rename(index={0:'kurt'})])
+def quant(dataframe):
+    return pd.concat([dataframe.describe(),dataframe.kurtosis().to_frame().transpose().rename(index={0:'kurt'})])
+
+desc = quant(data)
 
 # replace the NaN with mean values in the column 'AIR_SYSTEM_DELAY'
+data['AIR_SYSTEM_DELAY'] = data['AIR_SYSTEM_DELAY'].fillna(data['AIR_SYSTEM_DELAY'].mean())
+
 # Remove outliers for 'departure_delay' - remove rows in excess of 3 standard deviations from mean
+data = data[(data['DEPARTURE_DELAY'] > data['DEPARTURE_DELAY'].describe()['mean'] - 3*data['DEPARTURE_DELAY'].describe()['std']) &
+            (data['DEPARTURE_DELAY'] < data['DEPARTURE_DELAY'].describe()['mean'] + 3*data['DEPARTURE_DELAY'].describe()['std'])]
+
 # Winsorise all quantitative columns to a 95% upper and lower bound
+# for col in desc.columns:
+#     try1 = mstats.winsorize(data[col],limits=[0.05,0.05])
+#
+# try1 = mstats.winsorize(data,limits=[0.05,0.05])
+
 # log transform the column 'departure_delay' into a new column 'Log_dep_delay'
 # create a new dataframe where all the quantitative columns are log-transformed
 # Normalise all the quantitative columns with standard normalisation
