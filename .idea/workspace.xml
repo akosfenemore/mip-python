@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="de7d9154-2719-4d8f-982d-24f41af7ed80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,48 +28,46 @@
         <counts>
           <entry key="json" value="2" />
           <entry key="log" value="3" />
-          <entry key="py" value="12" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Log" value="3" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1693" />
-          <entry key="py" value="2046" />
+          <entry key="Python Console" value="2394" />
+          <entry key="py" value="4178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3739" />
+          <entry key="Python" value="6572" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_func.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="75" column="84" lean-forward="true" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+            <state relative-caret-position="2775">
+              <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
               <folding>
-                <marker date="1540472615633" expanded="true" signature="607:743" ph="..." />
-                <marker date="1540472615633" expanded="true" signature="2322:2819" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="213:519" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="994:1141" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="2614:2843" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="2989:2994" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="2989:3110" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="3209:3482" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="4573:4646" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="4955:5061" ph="..." />
+                <marker date="1540568022204" expanded="true" signature="5228:5431" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="91" />
+            <state relative-caret-position="472">
+              <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -116,7 +117,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="15" />
     <option name="y" value="23" />
-    <option name="width" value="1314" />
+    <option name="width" value="1133" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,6 +155,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="logexception" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,6 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,10 +296,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1314" height="1027" extended-state="0" />
+    <frame x="15" y="23" width="1133" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3101315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.017985612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,20 +375,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1688">
+          <caret line="6335" selection-start-line="6335" selection-end-line="6335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/Geohash/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/Geohash/geohash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="91" />
+        <state relative-caret-position="472">
+          <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="75" column="84" lean-forward="true" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+        <state relative-caret-position="2775">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
           <folding>
-            <marker date="1540472615633" expanded="true" signature="607:743" ph="..." />
-            <marker date="1540472615633" expanded="true" signature="2322:2819" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="213:519" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="994:1141" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="2614:2843" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="2989:2994" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="2989:3110" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="3209:3482" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="4573:4646" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="4955:5061" ph="..." />
+            <marker date="1540568022204" expanded="true" signature="5228:5431" ph="..." />
           </folding>
         </state>
       </provider>
