@@ -4,7 +4,7 @@ pd.options.display.max_columns = 50
 
 import numpy as np
 
-# import seaborn as sns
+import seaborn as sns
 
 from sklearn import preprocessing
 
@@ -171,11 +171,27 @@ def airline_flight_count(data):
 
 data_flight_count = airline_flight_count(data)['ROUTE']
 
+def airline_flight_delay(data):
+    return pd.pivot_table(data=data,
+                          values=['DEPARTURE_DELAY'],
+                          index=['AIRLINE'],
+                          columns=['ROUTE'],
+                          aggfunc=np.sum,
+                          # margins=True,
+                          # margins_name='All'
+                          )
+
+data_flight_delay = airline_flight_delay(data)['DEPARTURE_DELAY']
+
 # TODO:for each airline, the percentage of flights in each route over all the routes
 #
-# data_flight_pct = pd.DataFrame
-# rows = data_flight_count['AIRLINE'].index
-# data_flight_count[rows] = data_flight_count[rows].div(data_flight_count[rows].sum(axis=1), axis=0).multiply(100)
+
+
+data_flight_pct = pd.DataFrame()
+col = data_flight_count.columns
+data_flight_pct[col] = data_flight_count[col].div(data_flight_count[col].sum(axis=1), axis=0).multiply(100)
+
+
 #
 #
 # data_flight_pct = airline_flight_pct(data,data_flight_count)
@@ -185,4 +201,6 @@ data_flight_count = airline_flight_count(data)['ROUTE']
 #
 
 # TODO: Do PCA to reduce the variables 'departure_delay' and 'arrival_delay' to a single component
+
+
 # TODO: For each airline, the percentage delay for each dep_airport, over total delay across all dep_airport
