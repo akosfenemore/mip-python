@@ -1,12 +1,13 @@
+import matplotlib as plt
 import pandas as pd
 
 pd.options.display.max_columns = 50
 
 import numpy as np
 
-import seaborn as sns
+# import seaborn as sns
 
-from sklearn import preprocessing
+# from sklearn import preprocessing
 
 
 # Function to define quantitative columns

@@ -6,8 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de7d9154-2719-4d8f-982d-24f41af7ed80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flaskapi/flask_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flaskapi/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/flaskapi/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flaskapi/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/flaskapi/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logexception/errors.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logexception/info.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,42 +23,44 @@
     <session id="342676812">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="activate" value="1" />
-          <entry key="json" value="3" />
-          <entry key="log" value="7" />
-          <entry key="py" value="31" />
+          <entry key="json" value="4" />
+          <entry key="log" value="10" />
+          <entry key="py" value="35" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
-          <entry key="Log" value="7" />
+          <entry key="JSON" value="4" />
+          <entry key="Log" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2515" />
-          <entry key="py" value="6425" />
+          <entry key="Python Console" value="2516" />
+          <entry key="py" value="6899" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="8940" />
+          <entry key="Python" value="9415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -66,15 +72,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logexception/parsecsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="9" />
+              <folding>
+                <element signature="e#0#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/flaskapi/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="600">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1541087000440" expanded="true" signature="318:555" ph="..." />
-                <marker date="1541087000440" expanded="true" signature="1270:1272" ph="..." />
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1542024036286" expanded="true" signature="431:719" ph="..." />
+                <marker date="1542024036286" expanded="true" signature="1602:1604" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/flaskapi/info.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="84">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -117,18 +135,18 @@
         <option value="$PROJECT_DIR$/src/datamanipulation/airline_manipulation.py" />
         <option value="$PROJECT_DIR$/src/logexception/logframework.py" />
         <option value="$PROJECT_DIR$/src/datamanipulation/path_object.py" />
-        <option value="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/src/flaskapi/flask_script.py" />
+        <option value="$PROJECT_DIR$/src/datamanipulation/advanced_process.py" />
         <option value="$PROJECT_DIR$/src/flaskapi/app.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="24" />
-    <option name="width" value="1356" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-101" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,42 +162,10 @@
               <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="mip-python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mip-python" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mip-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mip-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mip-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logexception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mip-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (mip-python) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,8 +310,8 @@
       <list>
         <item itemvalue="Python.app" />
         <item itemvalue="Python.advanced_process" />
-        <item itemvalue="Python.path_object" />
         <item itemvalue="Python.parsecsv" />
+        <item itemvalue="Python.path_object" />
         <item itemvalue="Python.airline_manipulation" />
       </list>
     </recent_temporary>
@@ -342,27 +329,56 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="24" width="1356" height="1027" extended-state="0" />
+    <frame x="-101" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26816478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14955239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7872659" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7872659" weight="0.3049505" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.72434455" weight="0.2920792" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27565542" side_tool="true" weight="0.2930481" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49938574" weight="0.32871288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14955239" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7872659" weight="0.3049505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.72434455" visible="true" weight="0.2930481" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.72434455" visible="true" weight="0.2920792" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27565542" side_tool="true" weight="0.2930481" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49938574" weight="0.32941177" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49938574" weight="0.32871288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -375,9 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logexception/info.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logexception/info.log" />
     <entry file="file://$PROJECT_DIR$/src/datamanipulation/path_object.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -414,34 +428,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/bin/activate" />
-    <entry file="file://$PROJECT_DIR$/src/flaskapi/flask_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logexception/logframework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#401#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flaskapi/flask_script.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -477,35 +465,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logexception/log_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logexception/errors.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/flaskapi/errors.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logexception/parsecsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logexception/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logexception/errors.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logexception/exceptionhandler.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,21 +481,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/logexception/log_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datamanipulation/advanced_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logexception/logframework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logexception/parsecsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/flaskapi/info.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="84">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flaskapi/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1541087000440" expanded="true" signature="318:555" ph="..." />
-            <marker date="1541087000440" expanded="true" signature="1270:1272" ph="..." />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1542024036286" expanded="true" signature="431:719" ph="..." />
+            <marker date="1542024036286" expanded="true" signature="1602:1604" ph="..." />
           </folding>
         </state>
       </provider>

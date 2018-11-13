@@ -49,3 +49,59 @@ app - post - 56 - BB
 app - post - 55 - Changing airline code for AA to BB
 app - post - 55 - Changing airline code for AA to BB
 app - post - 55 - Changing airline code for AA to BB
+app - post - 55 - Changing airline code for AA to BB
+app - post - 57 - Changing airline code for AA to BB
+app - post - 57 - Changing airline code for AA to BB
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 46 - Getting all the data for AA
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 47 - Getting all the data for AA
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 47 - Getting all the data for AA
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 35 - Getting the top 20 rows of AIRLINE
+app - get - 35 - Getting the top 20 rows of AIRLINE
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 47 - Getting all the data for AA
+app - get - 47 - Getting all the data for AA
+app - get - 47 - Getting all the data for AA
+app - get - 47 - Getting all the data for AA
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - get - 23 - Getting head of data
+app - post - 62 - B
+app - post - 63 - Changing airline code for AA to B
+app - post - 63 - Changing airline code for AA to B
+app - post - 63 - Changing airline code for AA to B
+app - post - 63 - Changing airline code for AA to B
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - Changing airline code for AA to BB
+app - post - 63 - BB
+app - post - 64 - Changing airline code for AA to BB
+app - post - 63 - BB
+app - post - 64 - Changing airline code for AA to BB
+app - post - 63 - BB
+app - post - 64 - Changing airline code for AA to BB
+app - get - 35 - Getting the top 20 rows of AA
+app - get - 35 - Getting the top 20 rows of BB
+app - get - 35 - Getting the top 20 rows of AIRLINE
+app - get - 23 - Getting head of data
+app - post - 63 - 2
+app - post - 64 - Changing airline code for AA to BB
